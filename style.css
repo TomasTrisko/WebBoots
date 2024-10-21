@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #8A2BE2;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: #5A189A;
+}
+
+span.skladem {
+    font-weight: bold;
+    color: #008000;
+}
+  
+span.vyprodano {
+    font-weight: bold;
+    color: #FF0000; 
+}
+  
+span.nizka-dostupnost {
+    font-weight: bold;
+    color: #FFFF00; 
+}
+
+span.skladem, span.vyprodano, span.nizka-dostupnost {
+    display: inline-block;
+    width: 150px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+  font-weight: bold;
+}
+
+h2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
